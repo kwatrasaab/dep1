@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #a9363c;
+    width: 100%;
+    height: 40px;
+}
+
+.headerInside{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.headerInsideCentre{
+    margin: 0 auto;
+}
+
+.logo{
+    color: white;
+    font-family: Exotc350 Bd BT;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.search{
+    margin-left: 10px;
+}
+
+.searchBox{
+    width: 400px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+}
+
+.homeButton{
+    color: white;
+    margin-left: 200px;
+}
+
+.line{
+    border: 0.3px solid white;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.notificationButton{
+    color: white;
+    margin-left: 20px;
+}
+
+.profilePicture{
+    width: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.contents{
+   background-color: #ece9ed;
+   width: 100%; 
+   height: auto;
+   overflow: hidden;
+}
+
+.contentInside{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.sidebar{
+    float: left;
+    width: 200px;  
+}
+
+
+
+.sidebarRow{
+    margin-top: 8px;
+}
+
+.newFeedPosts{
+    width: 800px;
+    float: right;
+}
+
+.post{
+    background-color: white;;
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.postHeader{
+    padding: 6px;
+}
+
+.postProfilePicture{
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.postUserName{
+    font-size: 13px;
+}
+
+.postContent{
+    padding: 6px;
+}
+
+.postContentText{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin: 0px;
+}
+
+.postMediaImage{
+    width: 500px;
+}
+
+.postButtons{
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+.postLikeButton{
+    background-color: #ece9ed;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.postLikeButton a{
+    text-decoration: none;
+}
+
+.postCommentButton{
+    background-color: #ece9ed;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.postCommentButton a{
+    text-decoration: none;
+}
+
+
+
+
+

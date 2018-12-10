@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+    {% load static %}
+    <link href="{% static 'home/home.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+    <div class="headerInside">
+        <div class="headerInsideCentre">
+                <span class="logo">
+                    SocioVert
+                </span>
+
+            <span class="search">
+                    <input class="searchBox" placeholder="Search" type="text">
+                </span>
+
+            <span class="homeButton">
+                    Home
+                </span>
+
+            <span class="line">
+                </span>
+
+            <span class="notificationButton">
+                    <a class="logOut" href="{% url 'myprofile:red' %}">LogOut</a>
+                </span>
+
+            <span class="profile">
+                    <img class="profilePicture"
+                         src="{% static 'home/16819243_1192373754214108_3535708910818861573_o.jpg'%}">
+                </span>
+
+        </div>
+    </div>
+</div>
+
+<div class="contents">
+    <div class="contentInside">
+            <span class="sidebar">
+                    <div class="sidebarRow">News Feed</div>
+                    <div class="sidebarRow">Trending</div>
+            </span>
+        <span class="newFeedPosts">
+                    <div class="post">
+                            <div class="postHeader">
+                                <span><img alt="" class="postProfilePicture"
+                                           src="{% static 'home/16819243_1192373754214108_3535708910818861573_o.jpg' %}"></span>
+                                <span class="postUserName">{{ user.First_Name }} {{ user.Last_Name }}</span>
+                            </div>
+                            <div class="postContent">
+                                <p class="postContentText">Hey there what is up</p>
+                            </div>
+                            <div class="postMedia">
+                                <img alt="" class="postMediaImage"
+                                     src="{% static 'home/luke-pamer-40072-unsplash.jpg'%}">
+                            </div>
+                            <div class="postButtons">
+                                <div class="postLikeButton">
+                                    <a href="">Like</a>
+                                </div>
+                                
+                                <div class="postCommentButton">
+                                        <a href="">Comment</a>
+                                    </div>
+                            </div>
+                        </div>
+        
+                        <div class="post">
+                                <div class="postHeader">
+                                    <span><img alt="" class="postProfilePicture"
+                                               src="{% static 'home/16819243_1192373754214108_3535708910818861573_o.jpg' %}"></span>
+                                    <span class="postUserName">{{ user.First_Name }} {{ user.Last_Name }}</span>
+                                </div>
+                                <div class="postContent">
+                                    <p class="postContentText">My New Cat Boys</p>
+                                </div>
+                                <div class="postMedia">
+                                    <img alt="" class="postMediaImage" src="{% static 'home/cat-694730_1920.jpg' %}">
+                                </div>
+                                <div class="postButtons">
+                                    <div class="postLikeButton">
+                                        <a href="">Like</a>
+                                    </div>
+                                    
+                                    <div class="postCommentButton">
+                                            <a href="">Comment</a>
+                                        </div>
+                                </div>
+                            </div>
+            </span>
+    </div>
+</div>
+</body>
+</html>

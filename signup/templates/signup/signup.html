@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block loadCss %}
+{% load static %}
+<link href="{% static 'signup/index.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block content %}
+<body>
+<p class="shivam">Shivam</p>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="save"/>
+</form>
+</body>
+{% endblock %}

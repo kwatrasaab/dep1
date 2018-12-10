@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #a9363c;
+    width: 100%;
+    height: 40px;
+}
+
+.headerInside {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.headerInsideCentre {
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-family: Exotc350 Bd BT;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.search {
+    margin-left: 10px;
+}
+
+.searchBox {
+    width: 400px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+}
+
+.homeButton {
+    color: white;
+    margin-left: 200px;
+}
+
+.line {
+    border: 0.3px solid white;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.notificationButton {
+    color: white;
+    margin-left: 20px;
+}
+
+.profilePicture {
+    width: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.contents {
+    background-color: #ece9ed;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.contentInside {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+}
+
+
+
+.sidebarRow {
+    margin-top: 8px;
+}
+
+.newFeedPosts {
+    width: 650px;
+    float: right;
+}
+
+.postStatus {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+    height: 95px;
+}
+
+
+.postStatusInput {
+    padding: 5px;
+    width: 487px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid white;
+}
+
+.postStatusSubmitButton{
+    padding-left: 5px;
+}
+
+.postStatusSubmitButton input{
+    background-color: #ece9ed;
+    width: 100px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.post {
+    background-color: white;
+    ;
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.postHeader {
+    padding: 10px;
+}
+
+.postProfilePicture {
+    width: 25px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.postUserName {
+    font-size: 13px;
+}
+
+.postContent {
+    padding: 6px;
+
+}
+
+.postContentText {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin: 0px;
+    margin-top: 4px;
+}
+
+.postMediaImage {
+    width: 500px;
+}
+
+.postButtons {
+    width: 100%;
+    padding-bottom: 6px;
+}
+
+.postLikeButton {
+    background-color: #ece9ed;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.postLikeButton a {
+    text-decoration: none;
+}
+
+.postCommentButton {
+    background-color: #ece9ed;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.postCommentButton a {
+    text-decoration: none;
+}
+
+.myprofile {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.myProfileName {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myProfilePicture {
+    width: 100%;
+}
+
+.myProfilePictureInside {
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 110px;
+}
+
+.myProfileInformation {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.myProfileLine {
+    border: 0.3px solid grey;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.myProfileLocation {
+    text-align: left;
+}
+
+.photos {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+.myPhotoHeading {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.collage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.collagePhotos {
+    width: 100%;
+    display: block;
+}
+
+.collagePhotos img {
+    transition: 0.2s;
+}
+
+.collagePhotos img:hover {
+    transition: 0.2s;
+    -webkit-transform: scale(1.2);
+}
+
+.collageImage {
+    border-radius: 5px;
+}
